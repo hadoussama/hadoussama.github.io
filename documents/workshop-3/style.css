@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+html{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+section{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(204, 43%, 93%);
+    padding: 100px 20px;
+}
+.main_content{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px rgb(77, 76, 76);
+}
+.composition{
+    padding: 30px;
+
+}
+.composition-1{
+    background-color: white;
+
+}
+.composition-1 h2{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.composition-1 h3{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.composition-1 p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+    font-size: 1rem;
+
+}
+.composition-2{
+    background-color: hsl(179, 62%, 43%);
+}
+.composition-2 h3{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.composition-2 p{
+    color: hsl(204, 23%, 87%);
+    line-height: 1.2rem;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+.composition-2 p span{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: white;
+}
+.composition-2 .button{
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    background-color: hsl(71, 73%, 54%);
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(77, 76, 76);
+
+}
+.composition-3{
+    background-color: rgb(95, 197, 204);
+}
+.composition-3 h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.composition-3 p{
+    color: hsl(204, 23%, 87%);
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+@media only screen and (min-width: 550px){
+    .main_content{
+        grid-template-columns: 50% 50%;
+    }
+    .composition-1{
+        grid-area: 1/ 1/ 2/ 3;
+    }
+}
