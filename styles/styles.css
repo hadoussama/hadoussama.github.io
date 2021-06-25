@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+ .max-width{
+     max-width: 1300px;
+     padding: 0 80px;
+     margin: auto;
+ }   
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    /* background: #E42B50; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color:#ffff;
+}
+.navbar .logo a span{
+    color: #E42B50
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px
+    
+}
+.navbar .menu li a:hover{
+    color: #E42B50; 
+}
+/* home section styling */
+.home{
+    display: flex;
+    background-image: url("../images/abstract-pride-black-4k-ipad-air-wallpaper-ilikewallpaper_com.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #ffff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: #E42B50;
+    font-weight: 500;
+}
+.home-content, button{
+    border-radius: 10px;
+    font-size: 75px;
+    
+    
+}
+.button {
+    
+    background-color: #E42B50;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+
+}
+.button {
+    font-size: 38px;
+    text-align: center;
+    padding-top: 15px;
+    color: #ffff;
+}
+a .button:hover{
+    color: #E42B50;
+    background-color: #ffff;
+}
+footer{
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 700px;
+    
+}
+footer a{
+    color: #ffff;
+}
+footer a:hover{
+    color: #E42B50;
+}
+    
+
+.links{
+    display: inline-flex;
+    margin-left: 750px;
+    list-style-type: none; 
+}
+.links a{
+    display: inline-flex;
+    margin-left: 45px;
+    font-size: 27px;
+}
+@media (max-width: 890px){
+    .max-width{
+        padding: 0 30px;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 32vh;
+        width: 20%;
+        left: 80%;
+        top: 0;
+        background: #E42B50;
+        border-radius: 6px ;
+        box-shadow: 0px 0px 10px 1px rgb(131, 128, 128);
+        
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 17px 35%;
+        font-size: 20px;
+        color: white;
+    }
+    .navbar .menu li a:hover{
+        color: #373636; 
+    }
+}
+@media (max-width: 490px){
+    .max-width{
+        padding: 0 20px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+        
+    
+    }
+    .home .home-content .text-3{
+        font-size: 30px;
+        
+    }
+    
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 17px 20%;
+        font-size: 17px;
+        color: white;
+    }
+    .navbar .menu li a:hover{
+        color: #373636; 
+    }
+
+}
+    
+    
