@@ -1,0 +1,202 @@
+
+
+/* Corps */
+
+
+#table table
+{
+	background-color: white;
+	padding: 3px auto;
+	border-collapse: collapse;
+    margin: 15px;
+    box-shadow: 0px 2px 5px #1c1a19;
+ 
+}
+
+
+#table td
+{
+	
+	width:25px;
+	padding: 3px;
+	border: solid 0.7px;
+}
+.equipe
+{
+	width:120px;
+}
+#pass
+{
+	background-color: #CCE6CC;
+	empty-cells: hide;
+
+}
+#table th
+{
+	width:25px;
+	background:;
+	padding: 3px;
+	border: solid 0.7px;
+	
+}
+#match_france table
+{
+    width: 600px;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0px 2px 5px #1c1a19;
+
+
+}
+table img
+{
+    margin: 2px;
+}
+#match_france td, th
+
+{
+
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+.equipe1
+{
+    text-align: right;
+}
+.equipe2
+{
+    text-align: left;
+}
+#match_france tr:hover 
+{
+    background-color: #E4E4E4;
+}
+#table
+{
+    margin-bottom: 25px;
+}
+#match_france
+{
+    margin-bottom: 25px;
+}
+
+article, aside
+{
+    text-align: justify;    
+}
+
+article
+{
+    margin-right: 15px;
+    flex:3;
+    display: flex;
+    flex-direction: column;
+
+}
+
+article h1
+{
+    font-family: "Comic Sans MS", serif;
+    font-size: 2.5em;
+    text-shadow: 0px 2px 5px #1c1a19;
+    font-weight: normal;
+    padding: 7px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0px 0px 0px #989E9D;
+    border-radius: 5px;
+    width: auto;
+}
+
+article h3
+{
+    font-family: "Comic Sans MS", serif;
+    font-size: 1.1em;
+    margin: 25px;
+    padding: 5px;
+    font-weight: normal;
+    background-color: rgba(255,0,0,0.6);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    width: auto;
+    color: white;
+    text-shadow: 0px 2px 5px #1c1a19;
+}
+
+aside
+{
+    position: relative;
+    flex:1.2;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 1.1em;
+    font-family: Monaco, serif;
+    text-align: left;
+
+}
+aside img
+{
+    margin-right: 5px;
+    text-align:center;
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;    
+
+}
+caption
+{
+    font-family: "courier New";
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 3px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    width: auto;
+
+}
+#phase_final img
+{
+    width: 640px;
+    height: 260px;
+    margin-bottom: 25px;
+}
+#homme_match
+{
+    margin-top: 25px;
+}
+#detail
+{
+    text-align: left;
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    width: auto;
+    margin-top: 25px;
+
+}
+#detail ul
+{
+    list-style-type: none;
+    margin: 5px;
+}
+#detail li
+{
+
+    margin: 5px;
+}
+#plus
+{
+    display: flex;
+    flex-direction: column;
+}
